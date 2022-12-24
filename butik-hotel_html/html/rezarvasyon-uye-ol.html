@@ -1,0 +1,135 @@
+<html>
+<head>
+		<title>Üye Ol</title>
+		<meta http-equiv=content-type content=text/html;charset=iso-8859-9>
+		<link rel="stylesheet" type="text/css" href="../css/sifirlama.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("").click(function(){
+					
+				});
+			});
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#menu ul').hide();
+				$('#menu > li').hover(
+				function() {
+				$(this).find('ul').show();
+				},
+				function() {
+				$(this).find('ul').hide();
+				}
+				);
+			});
+		</script>
+</head>
+<body>
+	<!--Üst kapsayıcı başlangıç-->
+	<div id="ust-kapsayici6">
+		<img src="../img/logo.png"/>
+		<!--Menubar başlangıç--->
+		<div id="menubar">
+			<ul id="menu">
+				<li><a href="../anasayfa.html">Anasayfa</a></li>
+				<li><a href="hakkimizda.html">Hakkımızda</a>
+					<ul style="display: none;">
+						<li><a href="odalar.html">Odalar</a></li>
+					</ul>
+				</li>
+				<li><a href="resimler.html">Resimler</a></li>
+				<li><a href="rezarvasyon-giris.html">Rezervasyon</a></li>
+				<li><a href="iletisim.html">İletişim</a></li>
+			</ul>
+		</div>
+		<!--Menubar bitişi-->
+	</div>
+	<!--Yazı metinleri kapsayıcı başlangıç-->
+	<div id="yazi-metinleri-kapsayici3">
+		<div id="uye-kapsa">
+		<h3>Üye Ol</h3>
+			<table>
+				<tr>
+					<td>Ad:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>Soyad:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>Dogum Tarihi:</td>
+					<td>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+					<select>
+						<option>Ocak</option>
+						<option>Subat</option>
+						<option>Mart</option>
+						<option>Nisan</option>
+					</select>
+					<select>
+						<option>1995</option>
+						<option>1996</option>
+						<option>1997</option>
+						<option>1998</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Cinsiyet:</td>
+					<td>
+						<input type="radio">Erkek</input>
+						<input type="radio">Bayan</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Telefon:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>E-posta:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>Üye Adi:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>Sifre:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>Sifre Tekrar:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td><a href="rezarvasyon-yap.html"><button>Üye Ol</button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--Yazı metinleri kapsayıcı bitiş-->
+	<!--Footer menü başlangıç-->
+	<div id="footer-kapsa">
+		<ul>
+			<li><a href="https://www.facebook.com/lucealacati/"><img src="../img/facebook.png"/></a></li>
+			<li><a href="https://www.instagram.com/lucehotelalacati/"><img src="../img/instagram.png"/></a></li>
+		</ul>
+		<div id="adres">
+			<p>Luce Alacati</p>
+			<p>(0232) 716 64 41</p>
+			<p>İnönü Caddesi Yenimecidiye Mah. No:49 </p>
+			<p>Alaçatı-Çeşme/İzmir</p>
+		</div>
+	</div>
+	<!--Footer menü bitiş-->
+</body>
+</html>
